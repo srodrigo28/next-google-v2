@@ -25,6 +25,10 @@ AUTH_GOOGLE_SECRET=
 <img src="./screens/project/2-login.png" alt="não carregou imagem">
 <img src="./screens/project/3-login.png" alt="não carregou imagem">
 
+#### Trazendo dados API
+<img src="./screens/image.png" alt="não carregou imagem">
+
+
 ##### Dependências
   * npm run build
 
@@ -63,4 +67,9 @@ https://www.youtube.com/watch?v=XQbiMiNah0o
 
 ```
 https://www.youtube.com/watch?v=8PrDwsoOxf4
+```
+
+#### Estados
+```
+https://www.youtube.com/watch?v=6JnkwfrAI-U
 ```

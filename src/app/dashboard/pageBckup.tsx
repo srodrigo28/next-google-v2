@@ -10,9 +10,6 @@ export default async function Dashboard(){
     const session = await auth();
     const user = session?.user;
 
-    const response = await fetch('http://localhost:8080/tags')
-    const data = await response.json()
-
     // console.log(session)
     // states
 
@@ -52,24 +49,20 @@ export default async function Dashboard(){
                 <section className="mt-5 w-96">
                     <h1 className="mb-5 w-full">Minhas tarefas ?</h1>
                     
-                    <div className="overflow-y-scroll h-72">
-                        { data.map((item: any) => 
-                        <article key={item.id} className="bg-zinc-800 p-5 rounded-lg mb-4">
-                            <div className="flex items-center gap-1 bg-green-500 w-32 p-1 justify-center rounded-md">
-                                <label htmlFor="publicoId" className="tracking-widest font-semibold">Publico</label>
-                                <button id="publicoId">
-                                    <FiShare2 size={22} color="#3183ff" />
-                                </button>
-                            </div>
-                            <div className="flex justify-between items-center">
-                                <p>{item.name}</p>
-                                <button className="flex bg-white p-2 rounded-md">
-                                    <FaTrash size={24} color="#ea3140" />
-                                </button>
-                            </div>
-                        </article>
-                        )}
-                    </div>
+                    <article className="bg-zinc-800 p-5 rounded-lg">
+                        <div className="flex items-center gap-1 bg-green-500 w-32 p-1 justify-center rounded-md">
+                            <label htmlFor="publicoId" className="tracking-widest font-semibold">Publico</label>
+                            <button id="publicoId">
+                                <FiShare2 size={22} color="#3183ff" />
+                            </button>
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <p>Minha primeira tarefa de exemplo</p>
+                            <button className="flex bg-white p-2 rounded-md">
+                                <FaTrash size={24} color="#ea3140" />
+                            </button>
+                        </div>
+                    </article>
 
                 </section>
             </main>

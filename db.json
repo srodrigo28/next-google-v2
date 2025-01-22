@@ -1,0 +1,8 @@
+{
+    "tags": [
+        { "id": 1, "name": "html" },
+        { "id": 2, "name": "javascript" },
+        { "id": 3, "name": "css" },
+        { "id": 4, "name": "ReactJS" }
+    ]
+}
