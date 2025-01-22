@@ -6,17 +6,16 @@ npm install next-auth@beta
 
 * SHOW
 
-#### .env.local
+#### criar env .env.local
 
+* gerar secret key com .env.local
 ```
 npx auth secret
 ```
 
 ```
+AUTH_SECRET=" VAI GERAR AUTOMATICO TANTO O ENV. COMO ESSA CHAVE"
 AUTH_GOOGLE_ID=
-```
-
-```
 AUTH_GOOGLE_SECRET=
 ```
 
