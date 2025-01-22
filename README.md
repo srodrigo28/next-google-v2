@@ -5,7 +5,6 @@ Desafio next auth
 npm install next-auth@beta
 
 * SHOW
-
 #### criar env .env.local
 
 * gerar secret key com .env.local
@@ -22,12 +21,9 @@ AUTH_GOOGLE_SECRET=
 #### Resumo
 
 #### Páginas
-<img src="./screens/project/page1.png" alt="não carregou imagem">
-<img src="./screens/project/page2.png" alt="não carregou imagem">
-
-
-##### arquivos
-
+<img src="./screens/project/1-login-auth.png" alt="não carregou imagem">
+<img src="./screens/project/2-login.png" alt="não carregou imagem">
+<img src="./screens/project/3-login.png" alt="não carregou imagem">
 
 ##### Dependências
   * npm run build
